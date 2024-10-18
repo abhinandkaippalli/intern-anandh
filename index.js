@@ -1,2 +1,2 @@
-let name = "Anandh G Anil"
-console.log(`Hi ${name}, Welcome to JavaScript world!!`)
+let a = "hello world"
+console.log(a)
