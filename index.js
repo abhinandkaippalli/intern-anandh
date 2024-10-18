@@ -1,2 +1,2 @@
-let a = "hello world"
-console.log(a)
+let name = "Hello World"
+console.log(`Wlecome to ${name}`)
