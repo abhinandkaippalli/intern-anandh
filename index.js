@@ -1,2 +1,2 @@
-let name = "Hello World"
-console.log(`Wlecome to ${name}`)
+let user_name = "Hello World"
+console.log(`Wlecome to ${user_name}`)
