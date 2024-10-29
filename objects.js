@@ -64,5 +64,5 @@ function loc(u)
 ///console.log('value is'+ num);
 let abc= loc(glo);
 console.log(str);
-
+////
 
