@@ -64,5 +64,35 @@ function loc(u)
 ///console.log('value is'+ num);
 let abc= loc(glo);
 console.log(str);
-////
+
+//// arrow function
+let arrow = (user) =>{
+    console.log("hello "  + user);
+    return 1;
+}
+
+console.log(arrow('arr_fun'));
+
+
+let addition = (ab,bb) => ab + bb;
+
+let answer = addition(10 , 20)
+console.log(answer);
+
+// method
+
+let lap_top = {
+    cp_u :'i9',
+    ra_m : 16,
+    bran_d : 'hp',
+
+    //system : function(){
+        getconfig : function(){
+        //console.log('Hai I am a laptop');
+        console.log(this.cp_ u);
+    }
+}
+
+lap_top.getconfig();
+
 
